@@ -1,9 +1,16 @@
-import React from 'react'
+import React from "react";
+import Hero from "@/components/Hero";
+import InfoBoxes from "@/components/InfoBoxes";
+import HomeProperties from "@/components/HomeProperties";
 
-const HomePage = () => {
+const HomePage = () => {  
   return (
-    <h1 className='text-1xl'>HomePage</h1>
-  )
-}
+    <>
+      <Hero />
+      <InfoBoxes />
+      <HomeProperties />
+    </>
+  );
+};
 
-export default HomePage
+export default HomePage;
